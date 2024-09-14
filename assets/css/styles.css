@@ -202,9 +202,6 @@ footer img {
 }
 
 @media (max-width: 1330px) {
-    .profile-pic {
-        height: 300px;
-    }
 
     .da {
       display: flex;
@@ -217,6 +214,15 @@ footer img {
       display: block;
       width: 100%;
     }
+
+    .profile-pic {
+      height: 300px;
+    }
+  
+    .pic-side {
+      height: 300px;
+    }
+
 
     .DA-pics{
       width: 100%;
@@ -249,4 +255,47 @@ footer img {
     video {
       width: 100%;
   }
+
+  .numbers p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .profile-pic {
+    height: 150px;
+  }
+
+  .pic-side {
+    height: 150px;
+  }
+
+  .lead {
+    font-size: 14px;
+  }
+
+  .butn {
+    display: flex;
+    gap: 5px;
+  }
+
+  button {
+    width: 100px;
+    height: 60px;
+
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+
+  .quote {
+    font-size: 2rem;
+  }
+
+  .numbers p {
+    font-size: 14px;
+  }
+
 }
