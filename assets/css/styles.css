@@ -184,6 +184,16 @@ footer img {
   height: auto;
 }
 
+.numbers {
+  border-radius: 20px;
+  background-color: #F6EACB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 1330px) {
     .profile-pic {
         height: 200px;
