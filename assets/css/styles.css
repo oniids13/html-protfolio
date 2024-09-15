@@ -226,10 +226,12 @@ footer img {
 
     .DA-pics{
       width: 100%;
+      height: auto;
     }
 
     .web-pic{
       width: 100%;
+      height: auto;
     }
 
     .connect{
@@ -275,14 +277,18 @@ footer img {
     font-size: 14px;
   }
 
+  .butn .btn {
+    font-size: 12px;
+  }
+
   .butn {
     display: flex;
     gap: 5px;
   }
 
   button {
-    width: 100px;
-    height: 60px;
+    width: 120px;
+    height: 40px;
 
   }
 
