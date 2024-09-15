@@ -215,6 +215,11 @@ footer img {
       width: 100%;
     }
 
+    .laptop {
+      width: 100%;
+      padding: 10px;
+    }
+
     .profile-pic {
       height: 300px;
     }
