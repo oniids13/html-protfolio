@@ -216,7 +216,7 @@ footer img {
     }
 
     .laptop {
-      width: 100%;
+      width: 50%;
       padding: 10px;
     }
 
@@ -307,6 +307,11 @@ footer img {
 
   .numbers p {
     font-size: 14px;
+  }
+
+  .laptop {
+    width: 100%;
+    padding: 10px;
   }
 
 }
